@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xs:Schema xmlns:xsd = "http://www.w3.org//XMLSchema">
+    <xs:element name="Pedidos" minOccurs="1" maxOccurs="unbounded">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name ="Sucursal" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Direccion" type="xs:string"/>
+                            <xs:element name="NomTrabaja" type="xs:string"/>
+                            <xs:element name="Fecha" type="xs:date"/>
+                            <xs:element name="Observaciones" type="xs:string"/>
+                            <xs:element name ="Articulo" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="NumUnidades" type="xs:xs:integer"/>
+                                        <xs:element name="Precio" type="xs:integer"/>
+                                        <xs:element name="ObservacionesArticulo" type="xs:string"/>
+                                        <xs:element name="Plazo" type="xs:integer"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:Schema>

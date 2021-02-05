@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Pedidos SYSTEM "pedidos.dtd">
+<Pedidos>
+    <Sucursal codigoSucursal="A1234567">
+        <Direccion>Calle amargura</Direccion>
+        <NomTrabaja>Jose Antonio</NomTrabaja>
+        <Fecha>05/02/2021</Fecha>
+        <Observaciones>Es bonita</Observaciones>
+        <Articulo codigoArticulo="ABC-123">
+            <NumUnidades>5</NumUnidades>
+            <Precio>1350</Precio>
+            <ObservacionesArticulo>Movil 5G</ObservacionesArticulo>
+            <Plazo>12</Plazo>
+        </Articulo>
+        <Articulo codigoArticulo="DFG-456">
+            <NumUnidades>1</NumUnidades>
+            <Precio>300</Precio>
+            <ObservacionesArticulo>Tele</ObservacionesArticulo>
+            <Plazo>6</Plazo>
+        </Articulo>
+    </Sucursal>
+    <Sucursal codigoSucursal="B7654321">
+        <Direccion>Calle amargura</Direccion>
+        <Direccion>Calle pena</Direccion>
+        <NomTrabaja>Pepe Viyuela</NomTrabaja>
+        <Fecha>08/04/2021</Fecha>
+        <Observaciones>Muchos pedidos</Observaciones>
+        <Articulo codigoArticulo="HIJ-789">
+            <NumUnidades>8</NumUnidades>
+            <Precio>250</Precio>
+            <ObservacionesArticulo>Camisas</ObservacionesArticulo>
+            <Plazo>6</Plazo>
+        </Articulo>
+        <Articulo codigoArticulo="KLM-910">
+            <NumUnidades>3</NumUnidades>
+            <Precio>50</Precio>
+            <ObservacionesArticulo>Carteras</ObservacionesArticulo>
+            <Plazo>1</Plazo>
+        </Articulo>
+    </Sucursal>
+</Pedidos>   
